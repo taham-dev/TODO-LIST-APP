@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 html, body {
-	background-color: darkgrey;
+	background-color: rgb(169, 169, 169);
 	display: flex;
 	display: inline-block;
 	font-size: 2em;
 	margin: auto 0;
 	text-align: center;
 	font-family: "Shadows Into Light";
+	
 }
 
 .list {
