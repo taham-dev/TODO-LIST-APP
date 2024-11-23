@@ -30,7 +30,7 @@ addBtn.addEventListener("click", () => {
 		liValue.style.textDecoration = "line-through";
 		liValue.style.paddingRight = "5px";
 		checkBtn.textContent = "Un-check";
-        checkBtn.style.backgroundColor = ""
+                checkBtn.style.backgroundColor = ""
         
 		checkBtn.removeEventListener("click", checkList);
 		checkBtn.addEventListener("click", unCheck);
