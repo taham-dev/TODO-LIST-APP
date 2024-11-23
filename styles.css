@@ -1,9 +1,52 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+html, body {
 	background-color: darkgrey;
-	text-decoration: box;
-	
+	display: flex;
+	display: inline-block;
+	font-size: 2em;
+	margin: auto 0;
+	text-align: center;
+	font-family: "Shadows Into Light";
 }
 
 .list {
-	list-style-type: square;
+	list-style-type: none;
+	
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#listValue{
+    font-size: 1em;
+	
+}
+
+#add{
+	font-size: 1em;
+}
+
+.deleteBtn {
+ font-size: 1em;
+}
+
+.checkBtn {
+	font-size: 1em;
+	background-color: aqua;
+}
+
+#listValue input[type="text"] {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#listValue input[type="button"]{
+	margin-left: auto;
+	margin-right: auto;
 }
