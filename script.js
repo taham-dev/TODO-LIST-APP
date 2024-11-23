@@ -46,9 +46,9 @@ addBtn.addEventListener("click", () => {
 	deleteBtn.addEventListener("click", removeList);
 	checkBtn.addEventListener("click", checkList);
 
-	listValue.appendChild(deleteBtn);
-	listValue.appendChild(checkBtn);
-	listValue.appendChild(liValue);
+	liValue.appendChild(deleteBtn);
+	liValue.appendChild(checkBtn);
+	liValue.appendChild(liValue);
 });
 
 addBtn.addEventListener("click", addList);
