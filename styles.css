@@ -1,0 +1,11 @@
+body {
+	background-color: darkgrey;
+	text-decoration: box;
+	display: flex;
+	display: inline-block;
+	
+}
+
+.list {
+	list-style-type: square;
+}
