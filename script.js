@@ -46,8 +46,8 @@ addBtn.addEventListener("click", () => {
 	deleteBtn.addEventListener("click", removeList);
 	checkBtn.addEventListener("click", checkList);
 
-	liValue.appendChild(deleteBtn);
-	liValue.appendChild(checkBtn);
+	document.getElementById("lista").appendChild(deleteBtn);
+	document.getElementById("lista").appendChild(checkBtn);
 	ul.appendChild(liValue);
 });
 
